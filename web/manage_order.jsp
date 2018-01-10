@@ -69,7 +69,7 @@
         <%
             if (session.getAttribute("admin") == null)
             {
-                //response.sendRedirect("login.jsp");
+                response.sendRedirect("login.jsp");
             }
         %>
         <div class="header">

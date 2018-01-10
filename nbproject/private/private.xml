@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/login.jsp</file>
             <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/src/java/controller/LoginHandler.java</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/index.jsp</file>
             <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/manage.jsp</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/404.html</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/product.jsp</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/manage_order.jsp</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/web/cart.jsp</file>
+            <file>file:/Users/Cpt_Snag/NetBeansProjects/ABC/src/java/database/Connector.java</file>
         </group>
     </open-files>
 </project-private>
