@@ -143,7 +143,7 @@
                                         %>
                                     <li><a href="#"> Welcome <%= session.getAttribute("mail")%></a></li>      
                                     <li><button class="log-out" type="submit" value="Logout" name="logout">LOG OUT</button></li>                      
-                                    <li><a href="cart.jsp"> SHOPPING-CART</a></li>
+                                    <li><a href="cart.jsp"> CHECKOUT</a></li>
                                     <li>
 
                                         <%

@@ -251,9 +251,9 @@
                 <hr>
                 <div class="row">
                     <!--return checkForm(this);-->
-                    <form role="form" action="order" method="post" onsubmit="">
+                    <form role="form" action="order" method="post" onsubmit="return checkForm(this);">
                         <fieldset>							
-                            <p class="text-uppercase"> Login using your account: </p>	
+                            <p class="text-uppercase"> Enter the information for ordering: </p>	
 
 
                             <div class="form-group col-md-4 col-sm-12">

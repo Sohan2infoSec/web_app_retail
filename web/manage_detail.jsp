@@ -170,7 +170,7 @@
                                 <div class="form-group col-md-12 col-sm-12">
                                     <input type="text" name="desc" class="form-control input-lg" value="<%= p.getpDescription()%>" style="margin-bottom: 40px;">                                
                                 </div>
-                                <div class="col-md-12"><input type="file" name="img" multiple value="<%= p.getpImage()%>"></div>
+                                <div class="col-md-12"><input type="file" name="img" value="<%= p.getpImage()%>" accept="image/x-png,image/gif,image/jpeg"></div>
                             </div>
                         </fieldset>
                         <div class="col-md-3"></div>

@@ -190,18 +190,20 @@ public class ManageProduct extends HttpServlet
                 }
             }
 
-            String img = null;
-            if (request.getParameter("img") != null)
-            {
-                img = "img/" + request.getParameter("img");
-                System.out.println("[+] IMAGE PATH is " + img);
-            }
-            else
+            
+            String img = request.getParameter("img");
+            System.out.println("[+] FIRST IMAGE " + img);
+            if (img.equals("") || img == null)
             {
                 if (!response.isCommitted())
                 {
                     response.sendRedirect("errorUser.jsp");
                 }
+            }
+            else if (img != null)
+            {
+                img = "img/" + request.getParameter("img");
+                System.out.println("[+] IMAGE PATH is " + img);
             }
 
             try
@@ -209,10 +211,10 @@ public class ManageProduct extends HttpServlet
                 Product p = new Product(name, price, quantity, img, "", desc);
                 dbs.updateProduct(p, pid);
 
-                PrintWriter out = response.getWriter();
-                out.println("<script type=\"text/javascript\">");
-                out.println("alert('User or password incorrect');");
-                out.println("</script>");
+//                PrintWriter out = response.getWriter();
+//                out.println("<script type=\"text/javascript\">");
+//                out.println("alert('User or password incorrect');");
+//                out.println("</script>");
                 if (!response.isCommitted())
                 {
                     response.sendRedirect(request.getHeader("referer"));
